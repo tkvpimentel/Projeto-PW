@@ -1,0 +1,76 @@
+ALUNO: THIAGO KAUAN VASCONCELLOS DA SILVA
+
+Tema: Plataforma de questões de concursos
+
+O projeto é um site de questões de concursos públicos, inspirado em plataformas como o QConcursos. 
+A ideia é que o usuário possa cadastrar questões e outros usuários possam resolvê-las.
+
+Como funciona:
+
+Cadastro de questões: o usuário cadastrado cola o enunciado, as alternativas e o gabarito de uma questão, informando também a banca e a matéria.
+Resolução de questões: o usuário escolhe uma questão, marca uma alternativa e vê se acertou ou errou, de acordo com o gabarito.
+Tipos de usuário: o sistema terá usuários com função de Professor, que cadastra e gerencia as questões, e de Aluno, que resolve as questões.
+
+Entidades do sistema:
+
+Usuários: nome, e-mail e função (Professor ou Aluno).
+Matérias: disciplinas das questões, como Matemática e Português.
+Bancas: organizadoras dos concursos, como Fundatec.
+Questões: enunciado, alternativas, gabarito, banca, matéria e etiqueta de identificação.
+Respostas: alternativa marcada por cada aluno e se acertou ou não.
+
+Objetivo: facilitar o estudo para concursos, permitindo que os alunos pratiquem com questões organizadas por matéria e 
+banca, e que os professores mantenham um banco de questões atualizado.
+
+
+
+
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Ana Souza",
+      "email": "ana@exemplo.com",
+      "funcao": "Professor"
+    },
+    {
+      "id": 2,
+      "nome": "Carlos Lima",
+      "email": "carlos@exemplo.com",
+      "funcao": "Aluno"
+    }
+  ],
+
+  "materias": [
+    { "id": 1, "nome": "Matemática" },
+    { "id": 2, "nome": "Português" }
+  ],
+
+  "bancas": [
+    { "id": 1, "nome": "Fundatec" }
+  ],
+
+  "questoes": [
+    {
+      "id": 1,
+      "tipo": "alternativas",
+      "banca_id": 1,
+      "materia_id": 1,
+      "criado_por": 1,
+      "etiqueta": "Exemplo - Q1",
+      "enunciado": "Em uma progressão aritmética, o primeiro termo é 3 e a razão é 4. O décimo termo dessa progressão é igual a:",
+      "alternativas": ["36", "39", "43", "40", "35"],
+      "gabarito": "B",
+    }
+  ],
+
+  "respostas": [
+    {
+      "id": 1,
+      "usuario_id": 2,
+      "questao_id": 1,
+      "resposta_marcada": "B",
+      "acertou": true,
+    }
+  ]
+}
