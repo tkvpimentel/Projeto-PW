@@ -1,0 +1,45 @@
+{
+
+
+  "questoes": [
+    {
+      "id": 1,
+      "tipo": "alternativas",
+      "banca_id": 1,
+      "materia_id": 1,
+      "criado_por": 1,
+      "etiqueta": "Exemplo - Q1",
+      "enunciado": "Em uma progressão aritmética, o primeiro termo é 3 e a razão é 4. O décimo termo dessa progressão é igual a:",
+      "alternativas": ["36", "39", "43", "40", "35"],
+      "gabarito": "B"
+    },
+    {
+      "id": 2,
+      "tipo": "alternativas",
+      "banca_id": 2,
+      "materia_id": 1,
+      "criado_por": 1,
+      "etiqueta": "Exemplo - Q2",
+      "enunciado": "Qual é o valor de 15% de 240?",
+      "alternativas": ["30", "36", "40", "32", "24"],
+      "gabarito": "B"
+    },
+    {
+      "id": 3,
+      "tipo": "alternativas",
+      "banca_id": 1,
+      "materia_id": 2,
+      "criado_por": 3,
+      "etiqueta": "Exemplo - Q3",
+      "enunciado": "Assinale a alternativa em que a concordância verbal está correta:",
+      "alternativas": [
+        "Fazem dois anos que ele viajou.",
+        "Houveram muitos problemas na reunião.",
+        "Devem haver soluções para o caso.",
+        "Haviam várias pessoas na fila.",
+        "Faz dois anos que ele viajou."
+      ],
+      "gabarito": "E"
+    }
+  ]
+}

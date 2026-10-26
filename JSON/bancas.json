@@ -1,0 +1,7 @@
+{
+  "bancas": [
+    { "id": 1, "nome": "Fundatec" },
+    { "id": 2, "nome": "FGV" },
+    { "id": 3, "nome": "Cebraspe" }
+  ]
+}

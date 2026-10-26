@@ -1,0 +1,7 @@
+{
+    "respostas": [
+    { "id": 1, "usuario_id": 2, "questao_id": 1, "resposta_marcada": "B", "acertou": true },
+    { "id": 2, "usuario_id": 2, "questao_id": 2, "resposta_marcada": "A", "acertou": false },
+    { "id": 3, "usuario_id": 4, "questao_id": 3, "resposta_marcada": "E", "acertou": true }
+  ]
+}
